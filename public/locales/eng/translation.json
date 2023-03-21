@@ -1,0 +1,16 @@
+{
+    "text":{
+        "apple": "apple",
+        "city": "city",
+        "house": "house",
+        "country": "country",
+        "cheese": "cheese",
+        "weather": "weather",
+        "car": "car",
+        "bike": "bike",
+        "spider": "spider",
+        "food": "food",
+        "home": "Home",
+        "link": "Link" 
+    }
+}
