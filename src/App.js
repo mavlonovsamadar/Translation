@@ -21,7 +21,7 @@ const [done, setDone] = useState(true)
     
     {!done ?  <Container>
         <Row className='justify-content-center mt-5'>
-          <Col xs={12}>
+          <Col xs={4}>
             <Navbar bg="light" expand="lg">
               <Container>
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -31,8 +31,8 @@ const [done, setDone] = useState(true)
                     <Nav.Link href="#home">{t("text.home")}</Nav.Link>
                     <Nav.Link href="#link">{t("text.link")}</Nav.Link>
                     <select onChange={onChange} style={{color: "gray", border:"none", marginLeft: "0px"}} name="Translation" id="1">
-                      <option  value="eng">English</option>
                       <option  value="ru">Russian</option>
+                      <option  value="eng">English</option>
                       <option   value="uz">Uzbek</option>
                     </select>
                   </Nav>
